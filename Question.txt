@@ -1,0 +1,7 @@
+Write a mongo db query to show following details from the restaurants collection in the database:sample_restaurants? 
+Field to be display: name, Borough, cuisine, grade of grades, score of grades in a descending order.
+Condition: 
+1) [Borough = Brooklyn,Bronx & Manhattan] + [Cuisine not equals to chinese,Delicatessen,Jewish/Kosher] + [Score of grades: >8 & <20] 
+3) [Borough = Manhattan] + [Cuisine equals to Pizza] + [Score of grades : all]
+4) [Borough = Queens] + [Cuisine equals to Chinese] + [Score of grades : equals to 10]
+5) [Borough = Brooklyn] + [Cuisine equls to American] + [Grade of grades : "B"]
